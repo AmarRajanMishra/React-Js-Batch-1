@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    padding: auto;
+    overflow: hidden;
+}
+.product-card{
+    
+    display: flex;
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.image{
+    min-width: 300px;
+    max-width: 300px;
+    height: 400px;
+    background-color: rgb(117, 28, 28);
+    margin: 10px;
+    color: white; 
+}
+.btn-section{
+    text-align: center;
+    margin: 30px;
+    
+}
+.btn{
+    padding: auto;
+    margin: 20px;
+    height: 30px;
+    width: auto;
+    font-size: larger;
+}
